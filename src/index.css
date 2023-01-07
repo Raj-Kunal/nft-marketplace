@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600&display=swap'); 
+
+
+ :root {
+  --violent-gradient : linear-gradient(180deg, rgba(151, 71, 255, 0) 21.88%, #9747FF 95.31%),
+  --gradient-1 :linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%);
+  --gradient-2 :linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
+  --bg-primary-dark : #2B2B2B;
+  --bg-secondary-dark : #3B3B3B;
+  --text-light : #858584;    /* use for caption and lable text */
+ }
+
+ * {
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif ;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+

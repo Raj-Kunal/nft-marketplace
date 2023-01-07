@@ -1,0 +1,68 @@
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  isolation: isolate;
+  position: relative;
+  /* width: 230px;
+  height: 238px; */
+
+  background: #3b3b3b;
+  border-radius: 20px;
+}
+
+.number {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 20px;
+  top: 18px;
+
+  /* Background */
+  background: #2b2b2b;
+}
+.creator-artist-avatar img{
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.creator-artist-info{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        
+}
+.creator-artist-info h5{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.creator-total-sale{
+     color: #858584;;
+}
+.creator-sale-count{
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+font-size: 16px;
+color: #ffff;
+}
+
+@media screen and (max-width: 786px){
+    .creator-artist-avatar img{
+        width: 60px;
+        height: 60px;
+      }
+
+      .artist-card{
+        flex-direction: row;
+      }
+}

@@ -1,0 +1,42 @@
+
+
+nav {
+  justify-content: space-between;
+  padding: 20px 50px;
+  height: 128px;
+  background: var(--bg-primary-dark);
+}
+
+.logo {
+  padding: 0px;
+  gap: 10px;
+  width: 180px;
+  height: 32px;
+}
+
+.storefront{
+  height: 32px;
+width: 32px;
+object-fit: contain;
+}
+
+.menu {
+  justify-content: flex-end;
+  gap: 10px;
+  height: 60px;
+}
+
+.nav-item {
+  list-style-type: none;
+  gap: 12px;
+  padding: 0 20px;
+  height: 46px;
+  font-weight: 600;
+font-size: 16px;
+}
+
+@media screen and (max-width: 860px){
+  .menu {
+    display: none
+  }
+  }

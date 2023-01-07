@@ -1,0 +1,20 @@
+.btn{
+justify-content: center;
+padding: 0px 50px;
+min-width: 150px;
+height: 60px;
+color: #ffffff;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+background: #A259FF;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+gap: 3px;
+}
+
+.btn img {
+    width: 20px;
+    height: 20px;
+}
